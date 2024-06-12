@@ -1,0 +1,39 @@
+.navigacija{
+	background-color: #0059b3;
+	width: 30%;
+	height: 60px;
+	margin: 0;
+}
+div a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div a:hover:not(.active) {
+  background-color: #1a8cff;
+}
+
+.active {
+  background-color: black;
+}
+body {
+	background-image: url("../slike/nebo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tekst {
+	font-size: 30px;
+	font-family: Sans-serif;
+	text-align: center;
+	color: white;
+}
+#opcije {
+	font-size: 20px;
+	font-family: Sans-serif;
+	text-align: center;
+}

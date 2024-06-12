@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+<head>
+<meta  http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+<link rel="stylesheet" href="CSS/prognoza.css">
+<title>Vremenska prognoza</title>
+</head>
+<body>
+
+<center>
+	<div class="navigacija">
+		<a href="pocetna.html">Početna</a>
+		<a href="uputstvo.html">Uputstvo</a>
+		<a href="o autoru.html">O autoru</a>
+	</div>
+</center>
+
+<center>
+<div>
+<p class="tekst">Izaberite grad
+
+<select id="opcije" onchange="gradovi(value)">
+	<option value="beograd">Beograd</option>
+	<option value="pancevo">Pančevo</option>
+	<option value="novi-sad">Novi Sad</option>
+	<option value="nis">Niš</option>
+	<option value="valjevo">Valjevo</option>
+	<option value="kragujevac">Kragujevac</option>
+	<option value="vranje">Vranje</option>
+	<option value="leskovac">Leskovac</option>
+	<option value="subotica">Subotica</option>
+	<option value="zrenjanin">Zrenjanin</option>
+</select></p>
+
+<iframe id="demo"  width="500px" height="600px" src="https://naslovi.net/vremenska-prognoza/beograd"></iframe>
+
+</div>
+</center>
+<script src="JS/prognoza.js"></script>
+
+</body>
+</html>

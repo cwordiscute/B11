@@ -1,0 +1,68 @@
+function gradovi(x) {
+	
+	var y="https://naslovi.net/vremenska-prognoza/" + x;
+	document.getElementById("demo").src=y;
+	
+	
+	switch(x){
+		
+		case "beograd": 
+			{	var a= window.open("", "", "width=300px, height=300px, top=200, left=50");
+			a.document.write('<html><head><link rel="stylesheet" type="text/css" href="prozor.css"></head><body>')
+			a.document.write("<p class='tekst'>Kalemegdan, Savski kej, Kosančićev venac</p>");} break;
+	
+	
+		case "pancevo": 
+			{	var a= window.open("", "", "width=300px, height=300px, top=200, left=50");
+			a.document.write('<html><head><link rel="stylesheet" type="text/css" href="prozor.css"></head><body>')
+			a.document.write("<p class='tekst'>Tamiški kej, Narodna bašta, Gimnazija</p>");} break;
+	
+	
+		case "novi-sad": 
+			{	var a= window.open("", "", "width=300px, height=300px, top=200, left=50");
+			a.document.write('<html><head><link rel="stylesheet" type="text/css" href="prozor.css"></head><body>')
+			a.document.write("<p class='tekst'>Štrand, Petrovaradinska tvrdjava</p.");} break;
+	
+	
+		case "nis": 
+			{	var a= window.open("", "", "width=300px, height=300px, top=200, left=50");
+			a.document.write('<html><head><link rel="stylesheet" type="text/css" href="prozor.css"></head><body>')
+			a.document.write("<p class='tekst'>Medijana, Nišava</p>");} break;
+	
+	
+		case "valjevo": 
+			{	var a= window.open("", "", "width=300px, height=300px, top=200, left=50");
+			a.document.write('<html><head><link rel="stylesheet" type="text/css" href="prozor.css"></head><body>')
+			a.document.write("<p class='tekst'>Tešnjar, Kolubara</p>");} break;
+	
+	
+		case "kragujevac": 
+			{	var a= window.open("", "", "width=300px, height=300px, top=200, left=50");
+			a.document.write('<html><head><link rel="stylesheet" type="text/css" href="prozor.css"></head><body>')
+			a.document.write("<p class='tekst'>Spomen park Šumarice</p>");} break;
+	
+	
+		case "vranje": 
+			{	var a= window.open("", "", "width=300px, height=300px, top=200, left=50");
+			a.document.write('<html><head><link rel="stylesheet" type="text/css" href="prozor.css"></head><body>')
+			a.document.write("<p class='tekst'>Vranjski muzej</p>");} break;
+	
+	
+		case "leskovac": 
+			{	var a= window.open("", "", "width=300px, height=300px, top=200, left=50");
+			a.document.write('<html><head><link rel="stylesheet" type="text/css" href="prozor.css"></head><body>')
+			a.document.write("<p class='tekst'>Leskovac</p>");} break;
+	
+	
+		case "subotica": 
+			{	var a= window.open("", "", "width=300px, height=300px, top=200, left=50");
+			a.document.write('<html><head><link rel="stylesheet" type="text/css" href="prozor.css"></head><body>')
+			a.document.write("<p class='tekst'>Trg, sinagoga</p>");} break;
+	
+	
+		case "zrenjanin": 
+			{	var a= window.open("", "", "width=300px, height=300px, top=200, left=50");
+			a.document.write('<html><head><link rel="stylesheet" type="text/css" href="prozor.css"></head><body>')
+			a.document.write("<p class='tekst'>Gradska kuća</p>");} break;
+	}
+}
